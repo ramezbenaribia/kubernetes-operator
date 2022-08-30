@@ -1,0 +1,9 @@
+apiVersion: operators.datapm.pomm/v1
+kind: CopyratorRule
+metadata:
+  name: odoo-instances-1
+
+ruleType: configmap
+namespace: default
+selector:
+  copyrator: "true"
